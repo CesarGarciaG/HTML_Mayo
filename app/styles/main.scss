@@ -1,0 +1,10 @@
+// normalize, variables y responsive siempre se importan los primeros
+@import 'normalize';
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import 'responsive';
+@import 'discover';
+@import 'home';
+@import 'map';
+@import 'nav';

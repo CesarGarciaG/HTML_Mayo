@@ -1,0 +1,14 @@
+{
+  "name": "Ejemplos_html",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CesarGarciaG/HTML_Abril",
+  "authors": [
+    "César Gárcía <cesar.garcia@babel.es>"
+  ],
+  "description": "An example project for learning purposes",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

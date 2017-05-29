@@ -1,0 +1,16 @@
+#mapa {
+    width: 100%;
+    text-align: center;
+    background-color: #e7eaee;
+    padding-top: 5vh;
+    margin-top: 10vh;
+    h3 {
+        padding-bottom: 5vh;
+    }
+    iframe {
+        width: 98vw;
+        height: 50vh;
+        border: none;
+        pointer-events: none;
+    }
+}

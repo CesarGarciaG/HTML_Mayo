@@ -1,0 +1,23 @@
+#home {
+    background-image: url('../assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    text-align: center;
+    h2 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin-top: 0;
+        width: 100%;
+        small {
+            display: block;
+        }
+    }
+    img {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 978px;
+    }
+}
