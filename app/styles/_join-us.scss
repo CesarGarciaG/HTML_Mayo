@@ -1,0 +1,52 @@
+#join-us {
+    width: 100%;
+    background-color: #e7eaee;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    .unirse {
+        text-align: center;
+        button {
+            margin: 6vh;
+            width: 200px;
+            height: 6vh;
+        }
+        form {
+            width: 60%;
+            margin: 0 auto;
+            padding-top: 3vh;
+            label {
+                text-align: right;
+            }
+        }
+    }
+    .logo {
+        @media all and (max-width: #{$max-tablet}) {
+            padding-left: 55px;
+            padding-bottom: 2vh;
+        }
+    }
+    .list-item {
+        padding-bottom: 2vh;
+        ul {
+            list-style: none;
+            .list-title {
+                font-weight: bold;
+                padding-bottom: 3vh;
+            }
+        }
+    }
+    .finale {
+        @media all and (max-width: #{$max-desktop}) {
+            display: flex;
+            text-align: center;
+            flex-direction: column-reverse;
+        }
+    }
+    .social {
+        list-style: none;
+        li {
+            display: inline;
+            padding-right: 2vw;
+        }
+    }
+}

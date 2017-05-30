@@ -27,7 +27,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     open: true,
-                    base: ['.tmp', '.', 'app']
+                    base: ['.tmp', 'bower_components', '.', 'app']
                 }
             },
             dist: {

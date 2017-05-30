@@ -1,10 +1,17 @@
 // normalize, variables y responsive siempre se importan los primeros
 @import 'normalize';
+@import 'variables';
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 @import 'responsive';
 @import 'discover';
 @import 'home';
+@import 'join-us';
 @import 'map';
 @import 'nav';
+@import 'platforms';
+
+body {
+    font-family: sans-serif;
+}

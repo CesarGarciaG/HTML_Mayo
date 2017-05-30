@@ -579,8 +579,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -6192,6 +6192,45 @@ button.close {
     margin: 0 auto;
     max-width: 978px; }
 
+#join-us {
+  width: 100%;
+  background-color: #e7eaee;
+  padding-top: 10vh;
+  padding-bottom: 5vh; }
+  #join-us .unirse {
+    text-align: center; }
+    #join-us .unirse button {
+      margin: 6vh;
+      width: 200px;
+      height: 6vh; }
+    #join-us .unirse form {
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 3vh; }
+      #join-us .unirse form label {
+        text-align: right; }
+  @media all and (max-width: 990px) {
+    #join-us .logo {
+      padding-left: 55px;
+      padding-bottom: 2vh; } }
+  #join-us .list-item {
+    padding-bottom: 2vh; }
+    #join-us .list-item ul {
+      list-style: none; }
+      #join-us .list-item ul .list-title {
+        font-weight: bold;
+        padding-bottom: 3vh; }
+  @media all and (max-width: 1200px) {
+    #join-us .finale {
+      display: flex;
+      text-align: center;
+      flex-direction: column-reverse; } }
+  #join-us .social {
+    list-style: none; }
+    #join-us .social li {
+      display: inline;
+      padding-right: 2vw; }
+
 #mapa {
   width: 100%;
   text-align: center;
@@ -6217,5 +6256,19 @@ button.close {
 
 .dropdown {
   padding-left: 5vh; }
+
+#platforms {
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh; }
+  #platforms img {
+    padding-right: 5vw; }
+  #platforms .col-lg-3 {
+    padding-top: 5vh; }
+    #platforms .col-lg-3 h3 {
+      padding-bottom: 3vh; }
+
+body {
+  font-family: sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

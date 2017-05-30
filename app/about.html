@@ -22,6 +22,12 @@
         <div class="container">
             <div class="row">
                 <div class="navbar-header navbar-left col-lg-offset-3">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">FANCY</a>
                 </div>
 
@@ -75,14 +81,138 @@
         <section id="mapa">
             <h3>Compra de forma global</h3>
         </section>
-        <section id="platforms" class="container-fluid">
+        <section id="platforms" class="container">
             <div class="row">
-                <img src="assets/images/international_mobile" alt="" class="col-lg-offset-3 col-lg-4 col-md-offset-3 col-md-4 col-xs-12">
-                <div class="col-lg-2 col-md-2 col-xs-12">
+                <img src="assets/images/international_mobile.png" alt="" class="col-lg-offset-2 col-lg-5 col-md-offset-1 col-md-5 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-xs-12">
                     <h3>Web, móvil y más</h3>
-                    <span>Fancy está disponible en tu ordenador, smartphone, tablet, TV y Apple Watch.</span>
+                    <p>Fancy está disponible en tu ordenador, smartphone, tablet, TV y Apple Watch.</p>
                     <a href="">Descarga la app de Funcy</a>
                 </div>
+            </div>
+        </section>
+        <section id="join-us" class="container-fluid">
+            <div class="row unirse">
+                <h3>Haz Funcy a lo que encuentres, contacta con nosotros y compra lo que te gusta</h3>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="nombre" class="col-lg-4 col-md-4 col-sm-4 control-label">Nombre</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control col-lg-6" id="nombre" placeholder="Saturno">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos" class="col-lg-4 col-md-4 col-sm-4 control-label">Apellidos</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control" id="apellidos" placeholder="Rodríguez Matasuegras">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nacimiento" class="col-lg-4 col-md-4 col-sm-4 control-label">Fecha de Nacimiento</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input class="form-control" type="date" name="nacimiento" id="nacimiento" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion" class="col-lg-4 col-md-4 col-sm-4 control-label">Dirección</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control" id="direccion" placeholder="C/ Mayor 1, Bajo B">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cod-pos" class="col-lg-4 col-md-4 col-sm-4 control-label">Código Postal</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="number" class="form-control" id="cod-pos" placeholder="00000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad" class="col-lg-4 col-md-4 col-sm-4 control-label">Ciudad</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control col-lg-6" id="ciudad" placeholder="Madrid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="provincia" class="col-lg-4 col-md-4 col-sm-4 control-label">Provincia</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control col-lg-6" id="provincia" placeholder="Madrid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pais" class="col-lg-4 col-md-4 col-sm-4 control-label">País</label>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control col-lg-6" id="pais" placeholder="España">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="radio-inline col-lg-offset-3 col-lg-2" for="hombre">
+                            <input type="radio" name="genero" id="hombre" value="hombre" required>
+                            Hombre
+                        </label>
+                        <label class="radio-inline col-lg-2" for="mujer">
+                            <input type="radio" name="genero" id="mujer" value="mujer" required>
+                            Mujer
+                        </label>
+                        <label class="radio-inline col-lg-2" for="otro">
+                            <input type="radio" name="genero" id="otro" value="otro" required>
+                            Otro
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-primary"><strong>UNIRSE A FUNCY</strong></button>
+                </form>
+            </div>
+            <div class="row">
+                <div class="logo col-lg-offset-1 col-lg-2 col-md-3">
+                    <p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> FUNCY</p>
+                    <p>Descubre cosas geniales, colecciona las cosas que te gustan, cómpralo todo en un mismo sitio.</p>
+                </div>
+                <div class="list-item col-lg-offset-1 col-lg-2 col-md-3 col-xs-6">
+                    <ul>
+                        <li class="list-title">Funcy</li>
+                        <li>Qué es Funcy</li>
+                        <li>Funcy Donde Sea</li>
+                        <li>Apple Watch</li>
+                        <li>Compra con Apple Pay</li>
+                    </ul>
+                </div>
+                <div class="list-item col-lg-2 col-md-3 col-xs-6">
+                    <ul>
+                        <li class="list-title">Negocio</li>
+                        <li>Vender en Funcy</li>
+                        <li>Publicistas y Blogueros</li>
+                        <li>Escaparate de Funcy</li>
+                        <li>Recursos para Vendedores</li>
+                    </ul>
+                </div>
+                <div class="list-item col-lg-2 col-md-3 col-xs-6">
+                    <ul>
+                        <li class="list-title">Descarga</li>
+                        <li>Apps para el Móvil</li>
+                        <li>Botones & Widgets</li>
+                        <li>Guidelines de la Marca</li>
+                    </ul>
+                </div>
+                <div class="list-item col-lg-2 col-md-3 col-xs-6">
+                    <ul>
+                        <li class="list-title">Ayuda</li>
+                        <li>Centro de Ayuda</li>
+                        <li>Términos de Servicio</li>
+                        <li>Política de Privacidad</li>
+                        <li>Contacta con Nosotros</li>
+                        <li>Partners</li>
+                        <li>Jobs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row finale">
+                <small class="copy col-lg-offset-1 col-lg-2">© 2017 Thin Ramon Inc. All lefts reserved.</small>
+                <small class="col-lg-offset-1 col-lg-8">
+                    <ul class="social">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Google+</li>
+                        <li>Instagram</li>
+                    </ul>
+                </small>
             </div>
         </section>
     </main>
