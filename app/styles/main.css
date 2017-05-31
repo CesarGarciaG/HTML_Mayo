@@ -6156,7 +6156,9 @@ button.close {
     display: none !important; } }
 
 #descubrir {
-  margin-top: 15vh; }
+  background-color: white;
+  margin-top: 15vh;
+  padding: 10vh 0; }
   #descubrir h3 {
     text-align: center;
     margin: 0 10vw;
@@ -6171,6 +6173,19 @@ button.close {
   .discover-items strong {
     display: block;
     padding: 2em; }
+
+#funcy-social {
+  text-align: center; }
+  #funcy-social .panel-footer {
+    background-color: transparent; }
+
+.btn-facebook {
+  background-color: #5576B0;
+  color: white; }
+
+.btn-twitter {
+  background-color: #49AEED;
+  color: white; }
 
 #home {
   background-image: url("../assets/images/banner.png");
@@ -6194,7 +6209,6 @@ button.close {
 
 #join-us {
   width: 100%;
-  background-color: #e7eaee;
   padding-top: 10vh;
   padding-bottom: 5vh; }
   #join-us .unirse {
@@ -6234,9 +6248,7 @@ button.close {
 #mapa {
   width: 100%;
   text-align: center;
-  background-color: #e7eaee;
-  padding-top: 5vh;
-  margin-top: 10vh; }
+  padding-top: 5vh; }
   #mapa h3 {
     padding-bottom: 5vh; }
   #mapa iframe {
@@ -6245,7 +6257,7 @@ button.close {
     border: none;
     pointer-events: none; }
 
-#navbar {
+#navbar-about {
   position: absolute;
   top: 0;
   left: 0;
@@ -6254,13 +6266,34 @@ button.close {
   margin: 0 auto;
   padding: 20px 20px; }
 
-.dropdown {
+#navbar-index {
+  background-color: white;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75); }
+  #navbar-index .navbar-collapse {
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw; }
+    #navbar-index .navbar-collapse .has-feedback input {
+      background-color: #F2F2F2;
+      color: #D6D7DA; }
+    #navbar-index .navbar-collapse .navbar-brand {
+      float: none;
+      display: inline-block; }
+
+#menu-dropdown {
   padding-left: 5vh; }
 
+.linea {
+  padding-top: 10px; }
+  .linea div {
+    width: 1px;
+    height: 30px;
+    background-color: #5E5D5D; }
+
 #platforms {
+  background-color: white;
   width: 100%;
-  margin-top: 10vh;
-  margin-bottom: 10vh; }
+  padding: 10vh 0; }
   #platforms img {
     padding-right: 5vw; }
   #platforms .col-lg-3 {
@@ -6268,7 +6301,30 @@ button.close {
     #platforms .col-lg-3 h3 {
       padding-bottom: 3vh; }
 
+.panel.panel-product {
+  padding: 0; }
+  .panel.panel-product img {
+    object-fit: cover;
+    width: 100%; }
+
+#destacados {
+  background-color: transparent;
+  border: none; }
+  #destacados .panel-heading {
+    background-color: transparent;
+    border: none; }
+  #destacados .list-group-item {
+    background-color: transparent;
+    border: none; }
+    #destacados .list-group-item a {
+      text-decoration: none;
+      color: black; }
+
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background-color: #e7eaee; }
+
+.index-body {
+  padding-top: 10vh; }
 
 /*# sourceMappingURL=main.css.map */

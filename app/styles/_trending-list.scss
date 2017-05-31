@@ -1,0 +1,18 @@
+@mixin transparent {
+    background-color: transparent;
+    border: none;
+}
+
+#destacados {
+    @include transparent();
+    .panel-heading {
+        @include transparent();
+    }
+    .list-group-item {
+        @include transparent();
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

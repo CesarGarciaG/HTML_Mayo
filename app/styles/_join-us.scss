@@ -1,6 +1,5 @@
 #join-us {
     width: 100%;
-    background-color: #e7eaee;
     padding-top: 10vh;
     padding-bottom: 5vh;
     .unirse {
@@ -36,11 +35,7 @@
         }
     }
     .finale {
-        @media all and (max-width: #{$max-desktop}) {
-            display: flex;
-            text-align: center;
-            flex-direction: column-reverse;
-        }
+        @include copyright;
     }
     .social {
         list-style: none;

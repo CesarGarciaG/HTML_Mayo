@@ -1,4 +1,4 @@
-#navbar {
+#navbar-about {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,6 +8,35 @@
     padding: 20px 20px;
 }
 
-.dropdown {
+#navbar-index {
+    background-color: white;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    .navbar-collapse {
+        text-align: center;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        .has-feedback {
+            input {
+                background-color: #F2F2F2;
+                color: #D6D7DA;
+            }
+        }
+        .navbar-brand {
+            float: none;
+            display: inline-block;
+        }
+    }  
+}
+
+#menu-dropdown {
     padding-left: 5vh;
+}
+
+.linea {
+    padding-top: 10px;
+    div {
+        width: 1px;
+        height: 30px;
+        background-color: #5E5D5D;
+    }
 }

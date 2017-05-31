@@ -1,12 +1,20 @@
 
 @mixin mobile {
-    @media all and (max-width: $max-mobile) {
+    @media all and (max-width: #{$max-mobile}) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media all and (max-width: $max-tablet) {
+    @media all and (max-width: #{$max-tablet}) {
         @content;
+    }
+}
+
+@mixin copyright {
+    @media all and (max-width: #{$max-desktop}) {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
     }
 }

@@ -6,12 +6,20 @@
 // endbower
 @import 'responsive';
 @import 'discover';
+@import 'funcy-social';
 @import 'home';
 @import 'join-us';
 @import 'map';
 @import 'nav';
 @import 'platforms';
+@import 'product';
+@import 'trending-list';
 
 body {
     font-family: sans-serif;
+    background-color: #e7eaee;
+}
+
+.index-body {
+    padding-top: 10vh;
 }
