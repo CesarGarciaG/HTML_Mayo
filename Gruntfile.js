@@ -123,7 +123,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'app',
                     src: ['styles/main.scss'],
-                    dest: 'app',
+                    dest: '.tmp',
                     ext: '.css'
                 }]
             }

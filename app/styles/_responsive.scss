@@ -19,8 +19,14 @@
     }
 }
 
-@mixin social {
+@mixin social-desktop {
+    @media all and (min-width: #{$max-desktop}) {
+        width: 22vw;
+    }
+}
+
+@mixin social-tablet {
     @media all and (max-width: #{$max-desktop}) {
-        width: 50vh;
+        width: 40%;
     }
 }
