@@ -18,3 +18,9 @@
         flex-direction: column-reverse;
     }
 }
+
+@mixin social {
+    @media all and (max-width: #{$max-desktop}) {
+        width: 50vh;
+    }
+}

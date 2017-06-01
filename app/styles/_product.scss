@@ -1,7 +1,50 @@
+#producto {
+
+}
+
 .panel.panel-product {
     padding: 0;
     img {
         object-fit: cover;
         width: 100%;
+    }
+    .panel-body:hover {
+        cursor: pointer;
+    }
+    .panel-footer {
+        font-weight: bold;
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                cursor: pointer;
+            }
+        }
+        .subtitle {
+            margin-top: 2vh;
+        }
+        .btn {
+            font-weight: bold;
+        }
+        .btn-primary {
+            color: #6798C8;
+            border-color: #6798C8;
+            background-color: white;
+            &:hover {
+                color: #427FBB;
+                border-color: #427FBB;
+            }
+        }
+        .btn-default {
+            color: #B8BBC3;
+            border-color: #B8BBC3;
+            &:hover {
+                color: #9A9EA9;
+                border-color: #9A9EA9;
+                background-color: white;
+            }
+        }
     }
 }

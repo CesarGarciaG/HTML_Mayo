@@ -1,16 +1,27 @@
 #funcy-social {
+    width: 22vw;
     text-align: center;
+    .panel-body {
+        display: flex;
+        flex-direction: column;
+    }
     .panel-footer {
         background-color: transparent;
     }
-}
-
-.btn-facebook {
-    background-color: #5576B0;
-    color: white;
-}
-
-.btn-twitter {
-    background-color: #49AEED;
-    color: white;
+    .btn-facebook {
+        background-color: #5576B0;
+        color: white;
+        margin-bottom: 1.5vh;
+    }
+    .btn-twitter {
+        background-color: #49AEED;
+        color: white;
+    }
+    button {
+        height: 45px;
+    }
+    small {
+        padding-bottom: 3vh;
+    }
+    @include social;
 }

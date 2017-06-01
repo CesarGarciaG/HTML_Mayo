@@ -59,76 +59,93 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="destacados" class="panel panel-default col-lg-offset-1 col-lg-2">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><strong>DESTACADOS</strong></h3>
-                </div>
-                <div class="panel-body">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Pocket Master Sword</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Richard Clarkson</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Vintage Letter</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> roosmarijn de kok</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> CLI Chargestation 4</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Funcy Gift Card</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Geezy</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Bichael B Bordan</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Aliens</a></li>
-                        <li class="list-group-item">
-                            <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Hermes Boots</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="producto" class="col-lg-6">
-                <div class="panel panel-default panel-product">
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="destacados" class="panel panel-default col-lg-offset-1 col-lg-2 col-md-3">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>DESTACADOS</strong></h3>
+                    </div>
                     <div class="panel-body">
-                        <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Pocket Master Sword</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Richard Clarkson</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Vintage Letter</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> roosmarijn de kok</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> CLI Chargestation 4</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Funcy Gift Card</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Geezy</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Bichael B Bordan</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Aliens</a></li>
+                            <li class="list-group-item">
+                                <a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Hermes Boots</a></li>
+                        </ul>
                     </div>
-                    <div class="panel-footer">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
+                </div>
+                <div id="producto" class="col-lg-6 col-md-9">
+                    <div class="panel panel-default panel-product">
+                        <div class="panel-body" data-toggle="modal" data-target="#my-modal">
+                            <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
                         </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
+                        <div class="panel-footer">
+                            <div class="title">
+                                <p data-toggle="modal" data-target="#my-modal">Lorem ipsum dolor sit.</p>
+                                <button class="btn btn-primary">1231</button>
+                            </div>
+                            <div class="subtitle">
+                                <button class="btn btn-default"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> 12312</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="funcy-social" class="col-lg-2">
-                <div class="panel panel-default">
-                    <div class="panel-body container-fluid">
-                        <div class="row">
-                            <span>¡Funcy es más divertido con amigos!</span> 
-                        </div>
-                        <div class="row">
+                <div id="funcy-social" class="col-lg-3 col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <span>¡Funcy es más divertido con amigos!</span>
                             <small>Inicia sesión para ver qué están haciendo tus amigos.</small>
+                            <button class="btn btn-facebook"><strong>Iniciar sesión en Facebook</strong></button>
+                            <button class="btn btn-twitter"><strong>Iniciar sesión en Twitter</strong></button>
                         </div>
-                        <div class="row">
-                            <button class="btn btn-facebook">Iniciar sesión en Facebook</button>
+                        <div class="panel-footer">
+                            <a href="about.html">ÚNETE A FUNCY</a>
                         </div>
-                        <div class="row">
-                            <button class="btn btn-twitter">Iniciar sesión en Twitter</button>
-                        </div>
-                    </div>
-                    <div class="panel-footer">
-                        <a href="about.html">ÚNETE A FUNCY</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Modal window -->
+        <div class="modal fade" id="my-modal" tabindex="-1" role="dialog" aria-labelledby="#modal-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </main>
+
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <!-- endbower -->
+    <script src="scripts/service.products.js"></script>
 </body>
 
 </html>

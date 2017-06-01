@@ -6175,17 +6175,27 @@ button.close {
     padding: 2em; }
 
 #funcy-social {
+  width: 22vw;
   text-align: center; }
+  #funcy-social .panel-body {
+    display: flex;
+    flex-direction: column; }
   #funcy-social .panel-footer {
     background-color: transparent; }
-
-.btn-facebook {
-  background-color: #5576B0;
-  color: white; }
-
-.btn-twitter {
-  background-color: #49AEED;
-  color: white; }
+  #funcy-social .btn-facebook {
+    background-color: #5576B0;
+    color: white;
+    margin-bottom: 1.5vh; }
+  #funcy-social .btn-twitter {
+    background-color: #49AEED;
+    color: white; }
+  #funcy-social button {
+    height: 45px; }
+  #funcy-social small {
+    padding-bottom: 3vh; }
+  @media all and (max-width: 1200px) {
+    #funcy-social {
+      width: 50vh; } }
 
 #home {
   background-image: url("../assets/images/banner.png");
@@ -6223,7 +6233,7 @@ button.close {
       padding-top: 3vh; }
       #join-us .unirse form label {
         text-align: right; }
-  @media all and (max-width: 990px) {
+  @media all and (max-width: 992px) {
     #join-us .logo {
       padding-left: 55px;
       padding-bottom: 2vh; } }
@@ -6284,11 +6294,11 @@ button.close {
   padding-left: 5vh; }
 
 .linea {
-  padding-top: 10px; }
+  padding-top: 15px; }
   .linea div {
     width: 1px;
-    height: 30px;
-    background-color: #5E5D5D; }
+    height: 20px;
+    background-color: #B8BBC3; }
 
 #platforms {
   background-color: white;
@@ -6306,6 +6316,35 @@ button.close {
   .panel.panel-product img {
     object-fit: cover;
     width: 100%; }
+  .panel.panel-product .panel-body:hover {
+    cursor: pointer; }
+  .panel.panel-product .panel-footer {
+    font-weight: bold; }
+    .panel.panel-product .panel-footer .title {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      .panel.panel-product .panel-footer .title p {
+        cursor: pointer; }
+    .panel.panel-product .panel-footer .subtitle {
+      margin-top: 2vh; }
+    .panel.panel-product .panel-footer .btn {
+      font-weight: bold; }
+    .panel.panel-product .panel-footer .btn-primary {
+      color: #6798C8;
+      border-color: #6798C8;
+      background-color: white; }
+      .panel.panel-product .panel-footer .btn-primary:hover {
+        color: #427FBB;
+        border-color: #427FBB; }
+    .panel.panel-product .panel-footer .btn-default {
+      color: #B8BBC3;
+      border-color: #B8BBC3; }
+      .panel.panel-product .panel-footer .btn-default:hover {
+        color: #9A9EA9;
+        border-color: #9A9EA9;
+        background-color: white; }
 
 #destacados {
   background-color: transparent;
@@ -6325,6 +6364,7 @@ body {
   background-color: #e7eaee; }
 
 .index-body {
-  padding-top: 10vh; }
+  padding-top: 10vh;
+  padding-right: 5vh; }
 
 /*# sourceMappingURL=main.css.map */
